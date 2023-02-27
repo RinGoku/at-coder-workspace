@@ -1,3 +1,8 @@
+use proconio::input;
+
 fn main() {
-    unimplemented!();
+  input! {
+    target: usize
+  }
+  println!("{}", target.pow(2));
 }
